@@ -13,6 +13,7 @@ sudo apt-get install libpq-dev
 curl https://pyenv.run | bash
 echo -e 'export PYENV_ROOT="$HOME/.pyenv"\nexport PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 echo -e 'eval "$(pyenv init --path)"\neval "$(pyenv init -)"' >> ~/.bashrc
+source ~/.bashrc
 pyenv --version
 ```
 
